@@ -31,16 +31,16 @@ INSERT INTO QuizQuestions (QuestionID, QuestionText)
 VALUES (3, 'What is the purpose of the GROUP BY clause in SQL?');
 
 INSERT INTO QuizAnswers (AnswerID, QuestionID, AnswerText, IsCorrect)
-VALUES (5, 2, 'SELECT DISTINCT', TRUE),
-       (6, 2, 'SELECT UNIQUE', FALSE),
-       (7, 2, 'SELECT DIFFERENT', FALSE),
-       (8, 2, 'SELECT UNIQUE VALUES', FALSE);
+VALUES (1, 2, 'SELECT DISTINCT', TRUE),
+       (2, 2, 'SELECT UNIQUE', FALSE),
+       (3, 2, 'SELECT DIFFERENT', FALSE),
+       (4, 2, 'SELECT UNIQUE VALUES', FALSE);
 
 INSERT INTO QuizAnswers (AnswerID, QuestionID, AnswerText, IsCorrect)
-VALUES (9, 3, 'To group rows that have the same values in specified columns', TRUE),
-       (10, 3, 'To order the results in ascending order', FALSE),
-       (11, 3, 'To filter the results based on a condition', FALSE),
-       (12, 3, 'To join multiple tables', FALSE);
+VALUES (1, 3, 'To group rows that have the same values in specified columns', TRUE),
+       (2, 3, 'To order the results in ascending order', FALSE),
+       (3, 3, 'To filter the results based on a condition', FALSE),
+       (4, 3, 'To join multiple tables', FALSE);
 
 INSERT INTO QuizQuestions (QuestionID, QuestionText)
 VALUES (4, 'What is the purpose of the SQL JOIN clause?');
@@ -51,14 +51,14 @@ VALUES (5, 'How can you update data in a SQL database table?');
 
 
 INSERT INTO QuizAnswers (AnswerID, QuestionID, AnswerText, IsCorrect)
-VALUES (13, 4, 'To combine rows from two or more tables based on a related column', TRUE),
-       (14, 4, 'To filter rows based on a specified condition', FALSE),
-       (15, 4, 'To sort the result set in descending order', FALSE),
-       (16, 4, 'To perform calculations on numeric data', FALSE);
+VALUES (1, 4, 'To combine rows from two or more tables based on a related column', TRUE),
+       (2, 4, 'To filter rows based on a specified condition', FALSE),
+       (3, 4, 'To sort the result set in descending order', FALSE),
+       (4, 4, 'To perform calculations on numeric data', FALSE);
 
 
 INSERT INTO QuizAnswers (AnswerID, QuestionID, AnswerText, IsCorrect)
-VALUES (17, 5, 'UPDATE table_name SET column1 = value1, column2 = value2 WHERE condition;', TRUE),
-       (18, 5, 'MODIFY table_name SET column1 = value1, column2 = value2 WHERE condition;', FALSE),
-       (19, 5, 'CHANGE table_name SET column1 = value1, column2 = value2 WHERE condition;', FALSE),
-       (20, 5, 'ALTER table_name SET column1 = value1, column2 = value2 WHERE condition;', FALSE);
+VALUES (1, 5, 'UPDATE table_name SET column1 = value1, column2 = value2 WHERE condition;', TRUE),
+       (2, 5, 'MODIFY table_name SET column1 = value1, column2 = value2 WHERE condition;', FALSE),
+       (3, 5, 'CHANGE table_name SET column1 = value1, column2 = value2 WHERE condition;', FALSE),
+       (4, 5, 'ALTER table_name SET column1 = value1, column2 = value2 WHERE condition;', FALSE);
